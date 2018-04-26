@@ -1,0 +1,36 @@
+{
+  "name": "mailchimp-post",
+  "version": "1.0.0",
+  "description": "A simple module to subscribe users to a MailChimp list via post-json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d .",
+    "watch": "babel src -d . -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerseyWatch/mailchimp-post.git"
+  },
+  "keywords": [
+    "mailchimp"
+  ],
+  "author": "Nick Rattermann <nrattermann@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JerseyWatch/mailchimp-post/issues"
+  },
+  "homepage": "https://github.com/JerseyWatch/mailchimp-post#readme",
+  "dependencies": {
+    "jsonp": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
