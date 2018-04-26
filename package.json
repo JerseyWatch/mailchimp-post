@@ -1,5 +1,5 @@
 {
-  "name": "@jerseywatch/mailchimp-post",
+  "name": "mailchimp-post",
   "version": "1.0.0",
   "description": "A simple module to subscribe users to a MailChimp list via post-json",
   "main": "index.js",
